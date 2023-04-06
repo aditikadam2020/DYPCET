@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ChemicalActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/nevi_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Chemical"
+            android:fontFamily="@font/lora"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/career">
+        </ImageView>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:background="#F2150E65"
+                android:fontFamily="@font/lora"
+                android:text="Department of Chemical Eng."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginBottom="7dp">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F018786"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lora"
+                android:padding="5dp"
+                android:text="> It deals with the application of physical science (e.g. Chemistry and Physics), with Mathematics to the process of converting raw materials or chemicals into more useful or valuable forms.">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F018786"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:fontFamily="@font/lora"
+                android:text="> Chemical Engineering is serving as 'the backbone' for the entire spectrum of the process industry.">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/chemical_1">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F018786"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lora"
+                android:padding="5dp"
+                android:text="> Chemical engineers are responsible for manufacturing of more than 70,000 products for example – Toothpaste, Tea, Sugar, Soap, Detergents, Clothes, Plastic, Medicines, Fertilizers, Pesticides, Mosquito repellent, Cosmetics, perfumes, Alcohols, Petrol, Diesel, LPG gas, Paints, Petroleum Jelly, Asphalts… so many…">
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:background="#F2150E65"
+                android:fontFamily="@font/lora"
+                android:text="Applications of Chemical Eng."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginBottom="7dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/chem_application">
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

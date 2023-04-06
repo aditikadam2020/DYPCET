@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Ai_MlActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/nevi_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:fontFamily="@font/lora"
+            android:text="AI-ML"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/career">
+        </ImageView>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="@color/white"
+                android:background="#F2150E65"
+                android:fontFamily="@font/lora"
+                android:text="Department of CSE(Artificial Intelliegnce and Machine Learning) Eng."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginBottom="7dp">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F018786"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:fontFamily="@font/lora"
+                android:text="> Artificial intelligence (AI) is a branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F018786"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:fontFamily="@font/lora"
+                android:text="> Examples of AI - Siri, Alexa and other smart assistants, Self-driving cars, Robo-advisors, Conversational bots,etc.">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/aiml_1">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:background="#F2150E65"
+                android:fontFamily="@font/lora"
+                android:text="Future of AI"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginBottom="7dp">
+            </TextView>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:background="#034981"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:fontFamily="@font/lora"
+                        android:layout_height="wrap_content"
+                        android:text="Sector"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Example"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/white">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Transportation"
+                        android:textColor="@color/black"
+                        android:textSize="16sp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:padding="1dp"
+                        android:text="Self Driving Cars, Pilotless aircraft, Drones"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/backcolor">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/lora"
+                        android:text="Manufacturing"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:fontFamily="@font/lora"
+                        android:text="AI Powered Robots"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/white">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:fontFamily="@font/lora"
+                        android:layout_height="wrap_content"
+                        android:text="Health Care"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Diagnostics, drug Discovery, Virtual Nursing Assistant"
+                        android:padding="1dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/backcolor">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Education"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        ></TextView>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Digital Library, Virtual Tutors, Assessment and Monitoring of students based on facial expressions"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/white">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Social Media"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:layout_height="wrap_content"
+                        android:text="Digital Marketing, Sentimental Analysis"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/backcolor">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Services"
+                        android:fontFamily="@font/lora"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        ></TextView>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:layout_height="wrap_content"
+                        android:text="Amacon, Flipkart, Snapdeal"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:padding="10dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="Entertainment"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        ></TextView>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lora"
+                        android:text="AR and VR, Gaming, OTT Platform"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_weight="1">
+                    </TextView>
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

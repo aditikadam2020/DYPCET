@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PlacementActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/nevi_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Placment"
+            android:fontFamily="@font/lora"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/placement">
+        </ImageView>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:background="@color/nevi_1"
+        android:fontFamily="@font/lora"
+        android:text="Academic Year 2022 - 23*"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="7dp">
+    </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        <TableRow
+            android:layout_height="47dp"
+            android:background="@color/backcolor"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lora"
+                android:text="Companies Participated"
+                android:textColor="@color/nevi_1"
+                android:textSize="16sp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="93*"
+                android:fontFamily="@font/lora"
+                android:gravity="center_horizontal"
+                android:textColor="@color/nevi_1"
+                android:textSize="16sp">
+            </TextView>
+        </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Total Job Offers"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="556*"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/backcolor"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Highest Salary in LPA"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="64"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Average Salary in LPA"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="5.63"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/backcolor"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Median Salary"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="4.8"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/placement_2">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:background="@color/nevi_1"
+            android:fontFamily="@font/lora"
+            android:text="Academic Year 2021 - 22"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/backcolor"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Companies Participated"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="232"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Total Job Offers"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="626"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/backcolor"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Highest Salary in LPA"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="16"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Average Salary in LPA"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="6.3"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_height="47dp"
+                android:background="@color/backcolor"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:text="Median Salary"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="4.0"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/placement_1">
+        </ImageView>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

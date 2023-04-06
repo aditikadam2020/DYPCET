@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ScholarshipActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/nevi_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Scholarship"
+            android:fontFamily="@font/lora"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/scholarship">
+        </ImageView>
+    </LinearLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:background="#F2150E65"
+            android:text="DYPCET Scholarship"
+            android:fontFamily="@font/lora"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.049"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#EEF7FD">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/img1_s">
+                </ImageView>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lora"
+                    android:text="SOU. SHANTADEVI D. PATIL MERIT SCHOLARSHIP AWARD 2022-23"
+                    android:textColor="@color/nevi_1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="#31018786">
+                </TextView>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="> Highest CET Marks in that branch"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/nevi_1"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0F018786">
+                </TextView>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="> Topper of the Branch"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/nevi_1"
+                    android:layout_marginBottom="20dp"
+                    android:background="#0F018786">
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/hint"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+        </View>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:background="#F2150E65"
+            android:fontFamily="@font/lora"
+            android:text="Goverment Scholarship"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#034981"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details of Scholarship"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lora"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="SC/ST"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:fontFamily="@font/lora"
+                    android:text="100% Scholarship in Tution Fee and Development Fee"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/backcolor">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="VJ/DT/NT/SBC/TFWS"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:fontFamily="@font/lora"
+                    android:text="100% Scholarship in Tution Fee (Parent Income below 8Lakh in previous financial year)."
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="OBC"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lora"
+                    android:text="50% Scholarship in Tution Fee"
+                    android:padding="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/backcolor">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="EBC/EWS"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    ></TextView>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50% Scholarship in Tution Fee"
+                    android:textColor="@color/black"
+                    android:padding="1dp"
+                    android:fontFamily="@font/lora"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Minority"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lora"
+                    android:text="50% Scholarship in Tution Fee OR Rs.50000/- whichever is Maximum"
+                    android:textColor="@color/black"
+                    android:padding="1dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/backcolor">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/lora"
+                    android:text="Primary and Secondary Teachers"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    ></TextView>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.4000/- per year"
+                    android:fontFamily="@font/lora"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_weight="1">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

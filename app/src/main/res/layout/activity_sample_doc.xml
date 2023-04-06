@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SampleDocActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/nevi_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:fontFamily="@font/lora"
+            android:text="Sample Document"
+            android:textColor="@color/white"
+            android:textSize="18dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/documents">
+        </ImageView>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:background="#F2150E65"
+            android:text="Select Document"
+            android:fontFamily="@font/lora"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/income"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Income Certificate"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/caste"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Caste Certificate"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/casteValid"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Caste Validity Certificate"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/domicile"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Domicile Certificate"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/noncreme"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Non-Creme Layer Certificate"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/ews"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:text="EWS Certificate"
+            android:fontFamily="@font/lora"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/typeC"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Proforma – A (Type-C)"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/typeD_1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Proforma B-1 (Type-D)"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/typeD_2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Proforma B-2 (Type-D)"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/typeE"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#0F018786"
+            android:fontFamily="@font/lora"
+            android:text="Proforma G1 and G2 (Type-E)"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

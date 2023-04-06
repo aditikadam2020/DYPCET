@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532840666040",
+    "project_id": "dypcet-313c8",
+    "storage_bucket": "dypcet-313c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532840666040:android:eb55d1a64710dc19e6354d",
+        "android_client_info": {
+          "package_name": "com.example.dypcet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532840666040-ml798ohnupl0io4ud6qro9f77nm3j6ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf8ei-D8N_hRrSRjk9bNFuKF1PjlcSHxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532840666040-ml798ohnupl0io4ud6qro9f77nm3j6ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

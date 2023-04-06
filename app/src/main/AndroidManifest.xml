@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DYPCET"
+        tools:targetApi="31">
+        <activity
+            android:name=".SportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinishingSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CulturalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RotractActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FulewadiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KalambaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".G1G2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ProformaB2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ProformaB1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TypeCProformaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EwsCertificateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NonCremeLayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DomicileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CasteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CasteValidityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeCertificateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SampleDocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutureEngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusRouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SscBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VashinakaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HupriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AshtaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GargotiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BhogavatiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KagalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KuditreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IchalkaranjiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlacementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GdscActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForeignLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NccActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoboticActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdventureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CodingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhotographyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HighEduActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthFitnessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhyDypcetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SangliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ETypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindDocumentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacilityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ai_MlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CivilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChemicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArchitectureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CetMockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CareerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScholarshipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EwsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SbcVjNtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ObcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScStActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TfwsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EbcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DocumentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
