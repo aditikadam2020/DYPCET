@@ -74,7 +74,7 @@
                 android:fontFamily="@font/lora"
                 android:textStyle="bold"
                 android:textColor="@color/blue"
-                android:textSize="22dp" />
+                android:textSize="20dp" />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                     android:text="MorningTime = 7:35AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     android:text="EveningTime = 5:30PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -113,7 +113,7 @@
                 android:fontFamily="@font/lora"
                 android:textStyle="bold"
                 android:textColor="@color/blue"
-                android:textSize="22dp" />
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                     android:text="MorningTime = 7:45AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
                     android:text="EveningTime = 5:20PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -168,7 +168,7 @@
                     android:text="MorningTime = 7:30AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -176,7 +176,7 @@
                     android:text="EveningTime = 5:10PM"
                     android:textColor="@color/blue"
                     android:fontFamily="@font/lora"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -208,7 +208,7 @@
                     android:text="MorningTime = 8:00AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
                     android:text="EveningTime = 5:05PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -248,7 +248,7 @@
                     android:text="MorningTime = 8:10AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -256,7 +256,7 @@
                     android:text="EveningTime = 4:55PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -288,7 +288,7 @@
                     android:text="MorningTime = 8:20AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -296,7 +296,7 @@
                     android:text="EveningTime = 4:45PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -328,7 +328,7 @@
                     android:text="MorningTime = 8:25AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -336,7 +336,7 @@
                     android:text="EveningTime = 4:40PM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -368,7 +368,7 @@
                     android:text="MorningTime = 8:35AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -376,7 +376,7 @@
                     android:layout_gravity="center_horizontal"
                     android:text="EveningTime = 4:30PM"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <ImageView
@@ -403,7 +403,7 @@
                     android:text="MorningTime = 8:50AM"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -411,7 +411,7 @@
                     android:fontFamily="@font/lora"
                     android:text="EveningTime = 4:15PM"
                     android:textColor="@color/blue"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"

@@ -83,7 +83,7 @@
                 android:fontFamily="@font/lora"
                 android:gravity="center"
                 android:layout_margin="5dp"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textColor="@color/black"
                 android:textStyle="bold">
             </TextView>
@@ -94,6 +94,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="Health and Fitness Club is an association of students for taking care of everything that goes in to prescribing ways and activities for students to possess good overall health (Mental Physical, Emotional and Social).   It is time to understand and realize that Health education is an integral part of learning whose objective is the development of the physical, mental, moral, and social qualities in an individual through Health Club."
             >
         </TextView>
@@ -119,7 +120,7 @@
                 android:fontFamily="@font/lora"
                 android:gravity="center"
                 android:layout_margin="5dp"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textColor="@color/black"
                 android:textStyle="bold">
             </TextView>
@@ -130,6 +131,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="> To develop all aspects of oneself physical, social, mental, spiritual."
             >
         </TextView>
@@ -140,6 +142,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="> To develop a wellness awareness within the students."
             >
         </TextView>
@@ -150,6 +153,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="> To develop skill, interest and the appreciation for the need of life-long movement, activity, and recreation."
             >
         </TextView>
@@ -160,6 +164,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="> To provide activities that relieves emotional strain and tension."
             >
         </TextView>
@@ -170,6 +175,7 @@
             android:background="@color/backcolor"
             android:textColor="@color/nevi_1"
             android:fontFamily="@font/lora"
+            android:textSize="14dp"
             android:text="> To increase awareness of local, state, and national health services and resources."
             >
         </TextView>
@@ -195,7 +201,7 @@
                 android:gravity="center"
                 android:fontFamily="@font/lora"
                 android:layout_margin="5dp"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textColor="@color/black"
                 android:textStyle="bold">
             </TextView>
@@ -234,7 +240,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Free  EYE Check-up in association with the Lawrence and Mayo, Kolhapur Branch."
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:background="#31018786">
@@ -275,7 +281,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Shree Veepradevji Maharaj from  Patanjali yogpeeth, Haridwar guided the student regarding Healthy life style."
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:background="#31018786">
@@ -317,7 +323,7 @@
                     android:fontFamily="@font/lora"
                     android:text="International Yoga Day celebration – Prof. S. R. Khot, Yog Teacher demonstrated Yoga Protocol as per Ministry of AYUSH, Government of India."
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:background="#31018786">

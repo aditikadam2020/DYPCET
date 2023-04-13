@@ -68,12 +68,13 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
         android:textColor="@color/white"
         android:background="@color/nevi_1"
         android:fontFamily="@font/lora"
         android:text="Academic Year 2022 - 23*"
-        android:textSize="20sp"
+        android:textSize="18dp"
         android:gravity="center"
         android:layout_marginBottom="7dp">
     </TextView>
@@ -82,33 +83,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
-
-        <TableRow
-            android:layout_height="47dp"
-            android:background="@color/backcolor"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/lora"
-                android:text="Companies Participated"
-                android:textColor="@color/nevi_1"
-                android:textSize="16sp">
-            </TextView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="93*"
-                android:fontFamily="@font/lora"
-                android:gravity="center_horizontal"
-                android:textColor="@color/nevi_1"
-                android:textSize="16sp">
-            </TextView>
-        </TableRow>
 
             <TableRow
                 android:layout_height="47dp"
@@ -122,7 +96,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Total Job Offers"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -133,7 +107,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
 
@@ -149,7 +123,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Highest Salary in LPA"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -160,7 +134,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
 
@@ -176,7 +150,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Average Salary in LPA"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -187,7 +161,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
             <TableRow
@@ -202,7 +176,7 @@
                     android:text="Median Salary"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -213,7 +187,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
         </TableLayout>
@@ -229,12 +203,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
             android:textColor="@color/white"
             android:background="@color/nevi_1"
             android:fontFamily="@font/lora"
             android:text="Academic Year 2021 - 22"
-            android:textSize="20sp"
+            android:textSize="18dp"
             android:gravity="center"
             android:layout_marginBottom="7dp">
         </TextView>
@@ -243,33 +218,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
-
-            <TableRow
-                android:layout_height="47dp"
-                android:background="@color/backcolor"
-                android:padding="10dp">
-
-                <TextView
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/lora"
-                    android:text="Companies Participated"
-                    android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
-                </TextView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="232"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
-                </TextView>
-            </TableRow>
 
             <TableRow
                 android:layout_height="47dp"
@@ -283,7 +231,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Total Job Offers"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -294,7 +242,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
 
@@ -310,7 +258,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Highest Salary in LPA"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -320,7 +268,7 @@
                     android:text="16"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
 
@@ -336,7 +284,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Average Salary in LPA"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -347,7 +295,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
             <TableRow
@@ -362,7 +310,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Median Salary"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
 
                 <TextView
@@ -373,7 +321,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp">
+                    android:textSize="16dp">
                 </TextView>
             </TableRow>
         </TableLayout>

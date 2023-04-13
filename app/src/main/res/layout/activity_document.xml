@@ -66,13 +66,14 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:text="Select Category"
                 android:fontFamily="@font/lora"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -87,7 +88,7 @@
                 android:text="OPEN"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/ebc"
@@ -101,7 +102,7 @@
                 android:text="EBC"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/tfws"
@@ -115,7 +116,7 @@
                 android:text="TFWS"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/scst"
@@ -129,7 +130,7 @@
                 android:text="SC/ST"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/obc"
@@ -143,7 +144,7 @@
                 android:text="OBC"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/sbc_vj_nt"
@@ -157,7 +158,7 @@
                 android:text="SBC / VJ / NT"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/ews"
@@ -171,7 +172,7 @@
                 android:background="#0F018786"
                 android:text="EWS"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:id="@+id/type_c"
@@ -186,7 +187,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Sons and Daughters of Central Govt. / Govt. of India undertaking employee (Type - C)"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:id="@+id/type_d"
@@ -201,7 +202,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Sons and Daughters of State Govt. / Govt. of Maharashtra undertaking employee (Type - D)"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:id="@+id/type_e"
@@ -216,7 +217,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Maharashtra - Karnataka Border Candidates (Type - E)"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <androidx.cardview.widget.CardView
                 android:id="@+id/find"

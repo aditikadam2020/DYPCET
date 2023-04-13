@@ -84,7 +84,7 @@
                     android:gravity="center"
                     android:fontFamily="@font/lora"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="National Service Scheme, under the Ministry of Youth Affairs and Sports Govt. of India, popularly known as NSS was launched in Gandhiji’s Birth Centenary Year 1969, with primary focus on the development of personality of students through community service. The activity forum for NSS includes areas like, National Integration Camp, Blood Donation, Plantation, Immunisation, Shramdaan, Disastor Managament, and Adventure Programmes.
 Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affiliated with WWF.In 2011 our college received the permission to perform NSS activities affiliated with the Shivaji University. Since then our NSS journey with active participation of the students and support of the staff is started with the achievement of great milestones."
                 >
@@ -123,7 +124,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                     android:text="What students should do to participate in NSS?"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -134,6 +135,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Students should remain as a NSS member for minimum 2 years."
                 >
             </TextView>
@@ -144,6 +146,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Every year they should at least work for 120 hour."
                 >
             </TextView>
@@ -154,6 +157,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> It’s mandatory for the students to attend a 7-days camp."
                 >
             </TextView>
@@ -176,13 +180,13 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 </ImageView>
                 <TextView
                     android:layout_width="200dp"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Student’s benefit:"
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -193,6 +197,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> After working for 2 years (240 hour), students receives a certificate from the Shivaji University."
                 >
             </TextView>
@@ -203,6 +208,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> In the final year of the degree, students receives 10 marks for their efforts."
                 >
             </TextView>
@@ -213,6 +219,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> In case of failure in the examination of the students, there is an increment by 10 marks."
                 >
             </TextView>
@@ -239,7 +246,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -278,7 +285,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                         android:fontFamily="@font/lora"
                         android:text="Nails Free Trees campaign conducted by NSS volunteers of our college in collaboration with DYP group-3rd Jan 2021"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -320,7 +327,7 @@ Our institute got engaged in NSS in 1999 through “Shrushti Nature Club” affi
                         android:fontFamily="@font/lora"
                         android:text="Celebration of Swami Vivekanand Jayanti at hands of principal Dr. Santosh Chede and Dr. A. N. Jadhav, Dean Student Affairs-12th Jan 2021"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

@@ -67,12 +67,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
             android:textColor="@color/white"
             android:background="#F2150E65"
             android:text="DYPCET Scholarship"
             android:fontFamily="@font/lora"
-            android:textSize="20sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             android:gravity="center">
         </TextView>
@@ -111,7 +112,7 @@
                     android:fontFamily="@font/lora"
                     android:text="SOU. SHANTADEVI D. PATIL MERIT SCHOLARSHIP AWARD 2022-23"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:background="#31018786">
@@ -121,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="> Highest CET Marks in that branch"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/nevi_1"
                     android:layout_marginBottom="5dp"
@@ -132,7 +133,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="> Topper of the Branch"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/nevi_1"
                     android:layout_marginBottom="20dp"
@@ -154,12 +155,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
             android:textColor="@color/white"
             android:background="#F2150E65"
             android:fontFamily="@font/lora"
             android:text="Goverment Scholarship"
-            android:textSize="20sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             android:gravity="center">
         </TextView>
@@ -179,8 +181,9 @@
                     android:layout_height="wrap_content"
                     android:text="Category"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold"></TextView>
+                    android:textSize="16dp"
+                    android:textStyle="bold">
+                </TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -190,7 +193,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center_horizontal"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </TableRow>
@@ -204,7 +207,7 @@
                     android:text="SC/ST"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -213,7 +216,7 @@
                     android:fontFamily="@font/lora"
                     android:text="100% Scholarship in Tution Fee and Development Fee"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -227,7 +230,9 @@
                     android:text="VJ/DT/NT/SBC/TFWS"
                     android:textColor="@color/black"
                     android:layout_marginRight="5dp"
-                    android:textSize="16sp"></TextView>
+                    android:fontFamily="@font/lora"
+                    android:textSize="14dp">
+                </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -235,7 +240,7 @@
                     android:fontFamily="@font/lora"
                     android:text="100% Scholarship in Tution Fee (Parent Income below 8Lakh in previous financial year)."
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -248,7 +253,7 @@
                     android:text="OBC"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -258,7 +263,7 @@
                     android:text="50% Scholarship in Tution Fee"
                     android:padding="1dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -272,8 +277,9 @@
                     android:text="EBC/EWS"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
-                    ></TextView>
+                    android:textSize="14dp"
+                    >
+                </TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
@@ -282,7 +288,7 @@
                     android:textColor="@color/black"
                     android:padding="1dp"
                     android:fontFamily="@font/lora"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -295,7 +301,7 @@
                     android:text="Minority"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -306,7 +312,7 @@
                     android:text="50% Scholarship in Tution Fee OR Rs.50000/- whichever is Maximum"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -320,7 +326,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Primary and Secondary Teachers"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -329,7 +335,7 @@
                     android:text="Rs.4000/- per year"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>

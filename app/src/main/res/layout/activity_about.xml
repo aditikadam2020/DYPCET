@@ -85,7 +85,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -98,30 +98,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
-                    android:text="D. Y. Patil College of Engineering and Technology (DYPCET), was established in the year 1984. In the span of 37 years, DYPCET has come a Long way and has made its impact felt not only in the country, but also abroad. DYPCET is Autonomous Institution, granted autonomy by the University Grants Commission(UGC) for a period of 10 years, National Assessment and Accredition Council for a period of 5 years(CGPA3.08)"
+                    android:text="D. Y. Patil College of Engineering and Technology (DYPCET), was established in the year 1984. In the span of 39 years, DYPCET has come a Long way and has made its impact felt not only in the country, but also abroad. DYPCET is Autonomous Institution, granted autonomy by the University Grants Commission(UGC) for a period of 10 years, National Assessment and Accredition Council for a period of 5 years(CGPA3.08)"
                     >
                 </TextView>
 
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="321dp"
-                android:layout_height="128dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="55dp">
                 <ImageView
                     android:layout_width="321dp"
-                    android:layout_height="128dp"
+                    android:layout_height="127dp"
                     android:layout_gravity="center"
                     android:background="@color/white"
+                    android:layout_marginTop="10dp"
                     app:srcCompat="@drawable/img1_a"
                     android:cropToPadding="true">
                 </ImageView>
-            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:layout_marginTop="10dp"
@@ -131,10 +124,10 @@
                 android:fontFamily="@font/lora"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:padding="5dp"
-                android:text="The Students of the college, continue to bag top positions in the merit list - retaining the status of the college amongst Maharashtra's premier colleges. The Ecollege is consistently rated amongst the top colleges 5 (often achieving first position) in the academic results of the shivaji University, Kolhapur. The College has always been able to attract various reputed recruiters for campus placement with excellent placement record.">
+                android:text="The Students of the college, continue to bag top positions in the merit list - retaining the status of the college amongst Maharashtra's premier colleges. The college is consistently rated amongst the top colleges 5 (often achieving first position) in the academic results of the shivaji University, Kolhapur. The College has always been able to attract various reputed recruiters for campus placement with excellent placement record.">
             </TextView>
 
 
@@ -167,7 +160,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -179,7 +172,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/lora"
                 android:padding="5dp"
@@ -192,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/lora"
                 android:padding="5dp"
@@ -205,7 +198,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
                 android:padding="5dp"
@@ -218,7 +211,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/lora"
                 android:padding="5dp"
@@ -232,7 +225,7 @@ Highest Placement in the region">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/lora"
                 android:padding="5dp"
@@ -245,7 +238,7 @@ Highest Placement in the region">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:padding="5dp"
                 android:fontFamily="@font/lora"
@@ -258,7 +251,7 @@ Highest Placement in the region">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
                 android:padding="5dp"
@@ -271,7 +264,7 @@ Highest Placement in the region">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0F018786"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/lora"
                 android:padding="5dp"
@@ -295,7 +288,7 @@ Highest Placement in the region">
                 </ImageView>
                 <TextView
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:gravity="center"
                     android:fontFamily="@font/lora"
@@ -313,7 +306,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -337,7 +330,7 @@ Highest Placement in the region">
                 </ImageView>
                 <TextView
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:gravity="center"
                     android:textStyle="bold"
@@ -355,7 +348,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -368,7 +361,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -381,7 +374,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -394,7 +387,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -417,7 +410,7 @@ Highest Placement in the region">
                 </ImageView>
                 <TextView
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:fontFamily="@font/lora"
@@ -434,7 +427,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -448,7 +441,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -461,7 +454,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -474,7 +467,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -487,7 +480,7 @@ Highest Placement in the region">
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#0F018786"
-                    android:textSize="14sp"
+                    android:textSize="14dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:padding="5dp"
@@ -508,6 +501,7 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:fontFamily="@font/lora"
+                    android:textSize="16dp"
                     android:text="Founder President (D. Y. Patil Pratishthan)"
                     android:textColor="@color/white">
                 </TextView>
@@ -532,7 +526,7 @@ Highest Placement in the region">
                     android:text="Padmashree Dr. D. Y. Patil"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -544,7 +538,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="Founders Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -556,7 +550,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="'Service to humanity is service to god hence that, help is more holier than lips that pray.'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
 
@@ -574,6 +568,7 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:fontFamily="@font/lora"
                     android:layout_gravity="center"
+                    android:textSize="16dp"
                     android:text="President (D. Y. Patil Group)"
                     android:textColor="@color/white">
                 </TextView>
@@ -598,7 +593,7 @@ Highest Placement in the region">
                     android:text="Hon. Dr. Sanjay D. Patil"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -610,7 +605,7 @@ Highest Placement in the region">
                     android:background="@color/teal_700"
                     android:text="President Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -622,7 +617,7 @@ Highest Placement in the region">
                     android:background="#0F018786"
                     android:text="'We cannot always build the future for our youth, but we can build our youth for the future'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
 
@@ -639,6 +634,7 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:fontFamily="@font/lora"
+                    android:textSize="16dp"
                     android:text="Vice President (D. Y. Patil Pratishthan)"
                     android:textColor="@color/white">
                 </TextView>
@@ -663,7 +659,7 @@ Highest Placement in the region">
                     android:text="Hon. Mr. Satej D. Patil"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -675,7 +671,7 @@ Highest Placement in the region">
                     android:background="@color/teal_700"
                     android:text="Vice President Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -687,11 +683,9 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="'I believe that my Students and Faculty are like the missiles, and can skyrocket their aspirations, materialize them and become global citizens.'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
-
-
 
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="35dp"
@@ -706,6 +700,7 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:fontFamily="@font/lora"
+                    android:textSize="16dp"
                     android:text="Trustee (D. Y. Patil Group)"
                     android:textColor="@color/white">
                 </TextView>
@@ -730,7 +725,7 @@ Highest Placement in the region">
                     android:text="Hon. Shri. Ruturaj S. Patil"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -742,7 +737,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="Trustee Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -754,7 +749,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="'At DYPCET, we take care of the physical and intellectual needs of the students with a well qualified and dedicated team of faculty members.'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
 
@@ -771,6 +766,73 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:fontFamily="@font/lora"
+                    android:textSize="16dp"
+                    android:text="Trustee (D. Y. Patil Group)"
+                    android:textColor="@color/white">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/trustee1">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/lora"
+                    android:text="Hon. Shri. Pruthviraj S. Patil"
+                    android:textColor="@color/nevi_1"
+                    android:textStyle="bold"
+                    android:textSize="18dp">
+                </TextView>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/teal_700"
+                    android:fontFamily="@font/lora"
+                    android:text="Trustee Message"
+                    android:textColor="@color/white"
+                    android:textSize="15dp">
+                </TextView>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="#0F018786"
+                    android:fontFamily="@font/lora"
+                    android:text="'At DYPCET, we take care of the physical and intellectual needs of the students with a well qualified and dedicated team of faculty members.'"
+                    android:textColor="@color/black"
+                    android:textSize="13dp">
+                </TextView>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="35dp"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/nevi_1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/lora"
+                    android:textSize="16dp"
                     android:text="Executive Director (D. Y. Patil Group)"
                     android:textColor="@color/white">
                 </TextView>
@@ -795,7 +857,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -807,7 +869,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="Executive Director Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -819,7 +881,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="'I believe that the existence of every educational institute will continue only if that Institute makes the Student and Parent feel happy.'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
 
@@ -836,6 +898,7 @@ Highest Placement in the region">
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:fontFamily="@font/lora"
+                    android:textSize="16dp"
                     android:text="Principal (DYPCET Kolhapur)"
                     android:textColor="@color/white">
                 </TextView>
@@ -860,7 +923,7 @@ Highest Placement in the region">
                     android:text="Dr. Santosh D. Chede"
                     android:textColor="@color/nevi_1"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="18dp">
                 </TextView>
                 <TextView
                     android:layout_width="200dp"
@@ -872,7 +935,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="Principal Message"
                     android:textColor="@color/white"
-                    android:textSize="15sp">
+                    android:textSize="15dp">
                 </TextView>
                 <TextView
                     android:layout_width="180dp"
@@ -884,7 +947,7 @@ Highest Placement in the region">
                     android:fontFamily="@font/lora"
                     android:text="'Our vision is to impart technical education of exemplary academic standards useful to build our nation, to build our students as brand ambassadors of DYPCET.'"
                     android:textColor="@color/black"
-                    android:textSize="13sp">
+                    android:textSize="13dp">
                 </TextView>
             </LinearLayout>
         </LinearLayout>

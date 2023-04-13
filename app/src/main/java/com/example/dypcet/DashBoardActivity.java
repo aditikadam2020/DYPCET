@@ -19,10 +19,10 @@ import org.imaginativeworld.whynotimagecarousel.model.CarouselItem;
 
 public class DashBoardActivity extends AppCompatActivity {
     ActivityDashBoardBinding binding;
-    CardView cd_about,cd_admission,cd_document,cd_scholarship,cd_career,cd_faci,cd_cet,cd_branch,cd_whydypcet,cd_cutoff,cd_placement,cd_bus,cd_mhtcet,cd_jee,cd_future,cd_finishingschool;
-    TextView tv_facebook,tv_insta;
+    CardView cd_about,cd_admission,cd_document,cd_scholarship,cd_career,cd_faci,cd_cet,cd_branch,cd_whydypcet,cd_cutoff,cd_placement,cd_bus,cd_mhtcet,cd_jee,cd_future,cd_finishingschool,cd_admissionNews;
+    ImageView iv_menu,iv_facebook,iv_insta, iv_youtube;
 
-    ImageView iv_menu;
+    TextView tv_visit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -191,8 +191,8 @@ public class DashBoardActivity extends AppCompatActivity {
         //cutoff card end
 
         //facebook link start
-        tv_facebook=findViewById(R.id.facebook);
-        tv_facebook.setOnClickListener(new View.OnClickListener() {
+        iv_facebook=findViewById(R.id.facebook);
+        iv_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = "https://www.facebook.com/dypcetkolhapur";
@@ -204,8 +204,8 @@ public class DashBoardActivity extends AppCompatActivity {
         //facebook link end
 
         //insta link start
-        tv_insta=findViewById(R.id.insta);
-        tv_insta.setOnClickListener(new View.OnClickListener() {
+        iv_insta=findViewById(R.id.insta);
+        iv_insta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = "https://www.instagram.com/dypcet_official/";
@@ -215,6 +215,30 @@ public class DashBoardActivity extends AppCompatActivity {
             }
         });
         //insta link end
+
+        //website visit
+        tv_visit=findViewById(R.id.visit);
+        tv_visit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://coek.dypgroup.edu.in/";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        //youtube link
+        iv_youtube=findViewById(R.id.youtube);
+        iv_youtube.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://youtube.com/@DYPCETKasabaBawadaKolhapur";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
 
         //Bus card start
         cd_bus=findViewById(R.id.buscard);
@@ -247,6 +271,19 @@ public class DashBoardActivity extends AppCompatActivity {
             }
         });
         //finishing school end
+
+        //admission news start
+        cd_admissionNews = findViewById(R.id.admissionNews);
+        cd_admissionNews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://coek.dypgroup.edu.in/admissions-news/";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+        //admission news ends
 
     }
     private void slider(){

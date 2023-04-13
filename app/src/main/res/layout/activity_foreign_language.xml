@@ -26,7 +26,7 @@
 
         <TextView
             android:layout_width="160dp"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
             android:gravity="center"
@@ -82,7 +82,7 @@
                     android:text="Foreign Language Program"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:textStyle="bold">
@@ -94,6 +94,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="As the world comes to India and Indians make an impact in countries abroad, many technology professionals find that the knowledge of foreign languages gives them a definite edge over their technical counterparts. The Foreign Language Program of DYPCET has designed courses in French, Japanese, German to meet global needs and turn these foreign languages into an asset for those who intend to join multinational companies and look for opportunities abroad."
                 >
             </TextView>
@@ -121,7 +122,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -132,6 +133,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To introduce students to basic principles and practice of oral and written communication."
                 >
             </TextView>
@@ -142,6 +144,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To enable students to appreciate the role of the different grammatical elements and structures of Japanese, German and French language."
                 >
             </TextView>
@@ -152,6 +155,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To trace the cultural, socio-economic and political map and understudy the emerging trends."
                 >
             </TextView>
@@ -162,6 +166,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To enable students to use the foreign language skills in different development sectors."
                 >
             </TextView>
@@ -190,7 +195,7 @@
                     android:gravity="center"
                     android:fontFamily="@font/lora"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -201,6 +206,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Japanese :  JLPT Certification/ NAT-TEST N5, N4, N3/5Q, 4Q, 3Q"
                 >
             </TextView>
@@ -211,6 +217,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Germen  : A1,A2,B1"
                 >
             </TextView>
@@ -221,6 +228,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> French : A1,A2,B1"
                 >
             </TextView>
@@ -247,7 +255,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -286,7 +294,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Webinar -Japanese-interaction with students in Japan-20/6/2021"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -328,7 +336,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Learn With Fun: French- Learning Numbers-17/4/2021"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -370,7 +378,7 @@
                         android:fontFamily="@font/lora"
                         android:text="SADO-Japanese Tea Ceremony -14/1/2021"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

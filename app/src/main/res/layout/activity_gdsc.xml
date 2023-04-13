@@ -84,7 +84,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Founded by Shreya Sawant and reached to greater heights in tenure of Lead Yash Nalavade,
 We are a program run by Google Developers. Developer Student Clubs (DSC) are community groups for students from any academic background in their undergraduate or graduate term. By joining a DSC, students build their professional and personal network, get access to Google Developers Resources and work together to build solutions for local problems in a peer-to-peer learning environment."
                 >
@@ -117,13 +118,13 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                 </ImageView>
                 <TextView
                     android:layout_width="200dp"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/lora"
                     android:layout_gravity="center_horizontal"
                     android:text="What we do:"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -134,7 +135,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                 android:fontFamily="@font/lora"
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
-                android:justificationMode="inter_word"
+                android:textSize="14dp"
                 android:text="> Hands-on coding workshops (Beginner and Experienced)"
                 >
             </TextView>
@@ -145,6 +146,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                 android:background="@color/backcolor"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/nevi_1"
+                android:textSize="14dp"
                 android:text="> Build side projects, Compete in the Solution Challenge"
                 >
             </TextView>
@@ -155,6 +157,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Networking events, Study Jams, Interview Preparation, Much much more!"
                 >
             </TextView>
@@ -181,7 +184,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -220,7 +223,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                         android:fontFamily="@font/lora"
                         android:text="Google Developer Student Club"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -262,7 +265,7 @@ We are a program run by Google Developers. Developer Student Clubs (DSC) are com
                         android:text="GDSC Team"
                         android:fontFamily="@font/lora"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

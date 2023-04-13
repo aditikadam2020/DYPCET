@@ -67,12 +67,13 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
         android:textColor="@color/white"
         android:background="#F2150E65"
         android:fontFamily="@font/lora"
         android:text="Salient Features of Institute"
-        android:textSize="20sp"
+        android:textSize="18dp"
         android:gravity="center">
     </TextView>
         <TextView
@@ -87,7 +88,7 @@
             android:fontFamily="@font/lora"
             android:text="State of Art Infrastructure"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fac2"
@@ -101,7 +102,7 @@
             android:fontFamily="@font/lora"
             android:text="WIFI Enabled Campus"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fac3"
@@ -115,7 +116,7 @@
             android:fontFamily="@font/lora"
             android:text="Laboratories equipped with equipments and latest technologies"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fac4"
@@ -129,7 +130,7 @@
             android:fontFamily="@font/lora"
             android:text="Industry-backed Curriculum"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fac5"
@@ -143,7 +144,7 @@
             android:fontFamily="@font/lora"
             android:text="MoUs with reputed Industries and Academic industries."
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
 
         <TextView
@@ -158,7 +159,7 @@
             android:fontFamily="@font/lora"
             android:text="Excellent Placement Record"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
 
         <TextView
@@ -173,7 +174,7 @@
             android:fontFamily="@font/lora"
             android:text="10000+ Worldwide Alumni Network"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
 
         <TextView
@@ -188,7 +189,7 @@
             android:fontFamily="@font/lora"
             android:text="Annumal Student Festivals and a Vibrant Campus Life"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
 
         <TextView
@@ -203,7 +204,7 @@
             android:fontFamily="@font/lora"
             android:text="Bus Facility Available"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fac10"
@@ -217,10 +218,8 @@
             android:fontFamily="@font/lora"
             android:text="All Govt. Scholarships Available to Students"
             android:textColor="@color/black"
-            android:textSize="18sp">
+            android:textSize="16dp">
         </TextView>
-
     </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

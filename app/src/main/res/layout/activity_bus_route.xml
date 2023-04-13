@@ -67,13 +67,14 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
         android:textColor="@color/white"
         android:background="#F2150E65"
         android:text="Select Bus Route"
         android:fontFamily="@font/lora"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:gravity="center">
     </TextView>
 
@@ -89,7 +90,7 @@
             android:text="SANGLI Route"
             android:fontFamily="@font/lora"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
 
         <TextView
@@ -104,7 +105,7 @@
             android:text="KALAMBA Route"
             android:fontFamily="@font/lora"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/fulewadi"
@@ -118,7 +119,7 @@
             android:text="FULEWADI Route"
             android:fontFamily="@font/lora"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
 
     <TextView
@@ -133,7 +134,7 @@
         android:text="ICHALKARANJI Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
 
     <TextView
@@ -148,7 +149,7 @@
         android:text="KUDITRE Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/kagal"
@@ -162,7 +163,7 @@
         android:text="KAGAL Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/bhogavati"
@@ -176,7 +177,7 @@
         android:text="BHOGAVATI Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/gargoti"
@@ -190,7 +191,7 @@
         android:text="GARGOTI Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/ashta"
@@ -204,7 +205,7 @@
         android:text="ASHTA Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
 
 
@@ -221,7 +222,7 @@
         android:text="HUPRI Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/vashinaka"
@@ -236,7 +237,7 @@
         android:text="VASHINAKA Route"
         android:fontFamily="@font/lora"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     <TextView
         android:id="@+id/sscBoard"
@@ -252,7 +253,7 @@
         android:fontFamily="@font/lora"
         android:text="SSC-BOARD Route"
         android:textColor="@color/black"
-        android:textSize="16sp">
+        android:textSize="16dp">
     </TextView>
     </LinearLayout>
 

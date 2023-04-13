@@ -84,7 +84,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Institute has been sanctioned NCC on Self funded scheme based. Accordingly as per rules and regulations governed by the NCC Bhavan-Kolhapur; 28 students of institute has been selected through rigorous screening process like –Running, Pull ups, side seat ups and interviews. All students selected were from First year and Second year of various branches.Institute has appointed Dr. Rahul D. Mahajan as a C.T. O. (Care taker Officer) for NCC cell which has verified and approved by NCC Bhavan, Kolhapur through documents verification process.
 As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subhedar) for training Parade as well as conducting lecture for NCC.Inaugural of NCC parade with all 28 cadets has been conducted on 16thMarch on occasion of Annual Sports."
                 >
@@ -112,6 +113,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subhedar) for training Parade as well as conducting lecture for NCC.Inaugural of NCC parade with all 28 cadets has been conducted on 16thMarch on occasion of Annual Sports."
                 >
             </TextView>
@@ -133,13 +135,13 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 </ImageView>
                 <TextView
                     android:layout_width="200dp"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Students Benefits: "
                     android:gravity="center"
                     android:fontFamily="@font/lora"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -150,6 +152,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Preference is given to B and C certificate holders in Defence Services, Police services, Para-Military forces, Fire forces, BSF, Territorial Army, Industrial Security Forces, Public Sectors, and all uniform services."
                 >
             </TextView>
@@ -160,6 +163,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> NCC ‘C’ Certificate holders are given preference in the recruitment of Civilian Gliding Instructors/Girl Cadet Instructors /NCC whole time lady officers and Aero/Ship modeling instructors."
                 >
             </TextView>
@@ -170,6 +174,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> NCC Cadets have reservation in many Government jobs, especially in the State and Central Police and in paramilitary forces."
                 >
             </TextView>
@@ -180,6 +185,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> NCC ‘C’ Certificate cadet taken part in Republic day parade at New Delhi, they are exempted from CEE and be awarded 100 marks in lieu."
                 >
             </TextView>
@@ -205,7 +211,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -244,7 +250,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                         android:text="NCC Team"
                         android:fontFamily="@font/lora"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -286,7 +292,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                         android:fontFamily="@font/lora"
                         android:text="NCC Paradeon Annual Sports Day"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -328,7 +334,7 @@ As per norms, Institute has also appointed to Mr. Jagtap (Retired Major, Subheda
                         android:fontFamily="@font/lora"
                         android:text="Rifle Training"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

@@ -65,12 +65,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:text="Eligibility"
                 android:fontFamily="@font/lora"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -84,7 +85,7 @@
                 android:padding="10dp"
                 android:text="45% marks in Physics, Mathematics and Chemistry / Biology / Vocational subjects in HSC and appeared in MHT-CET 2023 or JEE Mains (Paper 1) 2023"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
 
             <TextView
@@ -92,12 +93,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="Documents"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -112,7 +114,7 @@
                 android:text="SSC mark sheet"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -126,7 +128,7 @@
                 android:text="HSC mark sheet"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -140,7 +142,7 @@
                 android:text="MHT-CET / JEE mark sheet"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -154,7 +156,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Leaving certificate after passing XII / Diploma"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -168,7 +170,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Nationality certificate"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -182,7 +184,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Domicile certificate"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -196,19 +198,20 @@
                 android:fontFamily="@font/lora"
                 android:text="Certificate from the employer in Proforma A"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:padding="2dp"
+                android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="Income Certificate"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -224,7 +227,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Not Required"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
 
         </LinearLayout>

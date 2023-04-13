@@ -84,7 +84,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Srushti Adventure Club, DYPCET has been teamed with group of students who are passionate about adventure, history, travelling and exploring unique destinations in nature. These studentshave come up with an idea to promote adventure activities among college students and unite nature lovers under the banner of Srushti Adventure Club, DYPCET. We arrange adventure camps at various places like forest, fortsand hills which includes travel, camping, trekking, fort restoration, life surviving skills etc. Srushti Adventure club is basically a club run by the youth, for the youth to get involved in various things that are helpful to them in present stage as well as in different stages of life."
                 >
             </TextView>
@@ -119,7 +120,7 @@
                     android:text="Objectives"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
                     android:textStyle="bold">
@@ -131,6 +132,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Adventure – To keep young students always motivated."
                 >
             </TextView>
@@ -141,6 +143,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Environment Awareness – To minimize impacts onenvironment for better human life."
                 >
             </TextView>
@@ -151,6 +154,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Fort Conservation- To keep our history alive."
                 >
             </TextView>
@@ -161,6 +165,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Nature Education- To learn life skills from nature."
                 >
             </TextView>
@@ -187,7 +192,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -226,7 +231,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Adventure Club has conducted Adventure Trek at Kalasubai Peak and Rapling at Sandhan Valley form 20th -24th February 2020. Around 80 Student has participate in this Activity"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -268,7 +273,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Marleshwar – Nageshwar – sawatsada Trek Date – 28/09/2019 to 30/09/2019  No. of participants – Around 40"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -310,7 +315,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Panhala to pawankhind Trek Date – 27/07/2019 to 28/07/2019  No. of participants – Around 40"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

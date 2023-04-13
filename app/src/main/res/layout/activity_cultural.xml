@@ -102,7 +102,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Cultural Commitee 2k23"
                 android:textColor="@color/nevi_1"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textStyle="bold">
             </TextView>
         </LinearLayout>
@@ -147,7 +147,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Traditional Day 2K23 (Theme - Korean)"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -193,7 +193,7 @@
                     android:fontFamily="@font/lora"
                     android:text="ARPAN 2k23"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -239,7 +239,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Orchestra 2k23"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -285,7 +285,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Bollywood Day 2k23"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -331,7 +331,7 @@
                     android:fontFamily="@font/lora"
                     android:text="Twins Day 2k23"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -377,14 +377,11 @@
                     android:fontFamily="@font/lora"
                     android:text="Orchetra 2k22"
                     android:textColor="@color/nevi_1"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
     </androidx.core.widget.NestedScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

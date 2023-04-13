@@ -64,12 +64,13 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
         android:textColor="@color/white"
         android:background="#F2150E65"
         android:fontFamily="@font/lora"
         android:text="Select Subject"
-        android:textSize="20sp"
+        android:textSize="18dp"
         android:gravity="center">
     </TextView>
 
@@ -77,9 +78,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="5dp"
+        app:cardCornerRadius="10dp"
         android:id="@+id/physics"
-        app:cardElevation="5dp"
         app:cardBackgroundColor="@color/backcolor"
         android:layout_marginStart="5dp"
         app:cardUseCompatPadding="true">
@@ -97,7 +97,7 @@
             android:fontFamily="@font/lora"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textColor="@color/black"
             android:textStyle="bold">
         </TextView>
@@ -106,8 +106,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
         android:id="@+id/chemistry"
         app:cardBackgroundColor="@color/backcolor"
         android:layout_marginStart="5dp"
@@ -126,7 +125,7 @@
             android:gravity="center"
             android:fontFamily="@font/lora"
             android:layout_margin="5dp"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textColor="@color/black"
             android:textStyle="bold">
         </TextView>
@@ -135,9 +134,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="5dp"
+        app:cardCornerRadius="10dp"
         android:id="@+id/maths"
-        app:cardElevation="5dp"
         app:cardBackgroundColor="@color/backcolor"
         android:layout_marginStart="5dp"
         app:cardUseCompatPadding="true">
@@ -154,12 +152,40 @@
             android:text="Mathematics"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:fontFamily="@font/lora"
             android:textColor="@color/black"
             android:textStyle="bold">
         </TextView>
     </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/pcm"
+            app:cardBackgroundColor="@color/backcolor"
+            android:layout_marginStart="5dp"
+            app:cardUseCompatPadding="true">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/mocktest">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="PCM"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/lora"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 

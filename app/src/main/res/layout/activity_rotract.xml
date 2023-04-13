@@ -84,7 +84,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Rotaract is an International Organization which brings together people of 18 and older to exchange ideas with leaders in the community, develop leadership and professional skills, and have fun through service. In communities worldwide, Rotary and Rotaract members work side by side to take action through service.
 Also, Rotaract members decide how to organize and run their clubs, manage their own funds, and plan and carry out activities and service projects. Rotary club sponsors offer guidance and support and work with your club as partners in service."
                 >
@@ -123,7 +124,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                     android:text="Why should students join Rotaract?"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -134,6 +135,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Rotaract helps one to develop professional and leadership skills. It also provides opportunities for young people to address the needs and concerns of the community and the whole world."
                 >
             </TextView>
@@ -144,6 +146,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Rotaractors provide community service to both local and international communities."
                 >
             </TextView>
@@ -154,6 +157,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> This is perhaps the best reason for becoming a Rotaractor, the chance to do something for somebody else; to sense the self-fulfilment that comes in the process, and the return of that satisfaction to one's own life. It's richly rewarded."
                 >
             </TextView>
@@ -177,12 +181,13 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 </ImageView>
                 <TextView
                     android:layout_width="220dp"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
                     android:layout_gravity="end"
                     android:fontFamily="@font/lora"
                     android:text="https://instagram.com/rotaractclub_dyp_sunshine?igshid=YmMyMTA2M2Y="
                     android:layout_margin="5dp"
-                    android:textSize="12sp"
+                    android:textSize="12dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -212,7 +217,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                     android:text="What are the benefits for joining Rotaract?"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -222,6 +227,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:layout_height="wrap_content"
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
+                android:textSize="14dp"
                 android:fontFamily="@font/lora"
                 android:text="> Leadership Development :- Rotaract is an organization of leaders and successful people, serving in Rotaract Positions like a college education - Leadership learning, how to motivate, influence and lead leaders."
                 >
@@ -233,6 +239,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Global Citizenship: Rotaractors wear a lapel pin that states they are a part of a 'Rotaract Club'. There are various places on the globe that have a Rotary club. Every Rotaractor is welcome, even encouraged to attend any of the Rotary Clubs meeting or that of the Rotaract clubs around the globe; this means instant friends in both one's community and in the world community."
                 >
             </TextView>
@@ -243,6 +250,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> Career Advancement/Professional Growth: Being a member of the Rotaract Club helps young boys and girls receive instant recognition for their community service projects, which gives them credit rating during further studies abroad or during internship/placements, since Rotaract and its sponsoring organization Rotary enjoys international recognition, and Rotaractors get a headstart."
                 >
             </TextView>
@@ -269,7 +277,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                     android:gravity="center"
                     android:layout_margin="5dp"
                     android:fontFamily="@font/lora"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -308,7 +316,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                         android:fontFamily="@font/lora"
                         android:text="Eco Friendly workshop on making Ganpati Idols on the auspicious occasion of Ganesh Chaturthi."
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -350,7 +358,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                         android:fontFamily="@font/lora"
                         android:text="Drawing Competition on the occasion of Ganesh Chaturthi."
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -391,7 +399,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                         android:fontFamily="@font/lora"
                         android:text="Installation of RAC DYP Sunshine, DRR Installation and other Rotaract Clubs of kolhapur zone attended by RAC DYP Sunshine."
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -432,7 +440,7 @@ Also, Rotaract members decide how to organize and run their clubs, manage their 
                         android:fontFamily="@font/lora"
                         android:text="'Sabala Activity' on the Account of 'International Women's Health Day'"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

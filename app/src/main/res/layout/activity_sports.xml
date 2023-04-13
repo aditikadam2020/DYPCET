@@ -83,12 +83,12 @@
 
                     <ImageView
                         android:layout_width="300dp"
-                        android:layout_height="200dp"
+                        android:layout_height="180dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_1">
+                        app:srcCompat="@drawable/sports5">
                     </ImageView>
 
                     <TextView
@@ -99,9 +99,9 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Cultural Commitee 2k23"
+                        android:text="Cricket Leads 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>
@@ -133,7 +133,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_2">
+                        app:srcCompat="@drawable/sports2">
                     </ImageView>
 
                     <TextView
@@ -144,55 +144,9 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Traditional Day 2K23 (Theme - Korean)"
+                        android:text="Kabaddi Leads 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
-                        android:textStyle="bold">
-                    </TextView>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_margin="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.49"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-                app:layout_constraintVertical_bias="0.049"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="20dp"
-                app:cardBackgroundColor="#EEF7FD">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="300dp"
-                        android:layout_height="200dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_3">
-                    </ImageView>
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="10dp"
-                        android:background="#31018786"
-                        android:padding="5dp"
-                        android:fontFamily="@font/lora"
-                        android:text="ARPAN 2k23"
-                        android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>
@@ -225,7 +179,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_4">
+                        app:srcCompat="@drawable/sports1">
                     </ImageView>
 
                     <TextView
@@ -236,9 +190,9 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Orchestra 2k23"
+                        android:text="Badminton 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>
@@ -271,7 +225,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_5">
+                        app:srcCompat="@drawable/sports4">
                     </ImageView>
 
                     <TextView
@@ -282,9 +236,9 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Bollywood Day 2k23"
+                        android:text="Table-Tennis 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>
@@ -317,7 +271,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_6">
+                        app:srcCompat="@drawable/sports6">
                     </ImageView>
 
                     <TextView
@@ -328,9 +282,9 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Twins Day 2k23"
+                        android:text="Badminton 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>
@@ -363,7 +317,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        app:srcCompat="@drawable/cultural_7">
+                        app:srcCompat="@drawable/sports7">
                     </ImageView>
 
                     <TextView
@@ -374,9 +328,55 @@
                         android:background="#31018786"
                         android:padding="5dp"
                         android:fontFamily="@font/lora"
-                        android:text="Orchetra 2k22"
+                        android:text="Chess 2k23"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                app:layout_constraintVertical_bias="0.049"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="#EEF7FD">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/sports8">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:background="#31018786"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lora"
+                        android:text="Football (Reliance Cup) 2k22"
+                        android:textColor="@color/nevi_1"
+                        android:textSize="14dp"
                         android:textStyle="bold">
                     </TextView>
                 </LinearLayout>

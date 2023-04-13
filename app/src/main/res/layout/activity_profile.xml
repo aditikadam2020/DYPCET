@@ -366,6 +366,7 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="30dp"
+                android:textSize="16dp"
                 android:layout_marginRight="100dp"
                 android:textColor="@color/white"
                 android:fontFamily="@font/lora"

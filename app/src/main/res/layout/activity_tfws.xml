@@ -65,12 +65,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="What is TFWS Scheme"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -85,19 +86,20 @@
                 android:fontFamily="@font/lora"
                 android:text="Tuition Fee Waiver Scheme (TFWS)"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="Benefits of TFWS Scheme"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:gravity="center">
             </TextView>
 
@@ -112,7 +114,7 @@
                 android:fontFamily="@font/lora"
                 android:text="1) Under TFW scheme, students do not have to pay tuition fee (Rs. 60,000 to Rs. 1,00,000 approx) in SFI."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -125,7 +127,7 @@
                 android:fontFamily="@font/lora"
                 android:text="2) 5% of total seats shall be filled by TFW scheme, e.g. 60 seats then 3 seats shall be filled by TFWS."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -138,7 +140,7 @@
                 android:fontFamily="@font/lora"
                 android:text="3) Students whose parent's income is less than Rs. 6 lakh/annum are eligible for TFWS."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -151,7 +153,7 @@
                 android:fontFamily="@font/lora"
                 android:text="4) Admission is strictly on merit number through admission committee."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -164,7 +166,7 @@
                 android:fontFamily="@font/lora"
                 android:text="5) TFW scheme shall be applicable for complete duration of the course(4 Years)."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -177,7 +179,7 @@
                 android:fontFamily="@font/lora"
                 android:text="6) To get the benefits of TFW Scheme, the candidate has to submit the income certificate issued after 31st March from either 'Mamlatdar' or ''Taluka Development Officer (TDO)' or 'Collector(Jan Seva Kendra)' at the time of application form filling(registration for admission)."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -190,7 +192,7 @@
                 android:fontFamily="@font/lora"
                 android:text="7) No other document shall be considered valid(e.g. Income tax return, Certificate issued by 'Sarpanch')."
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
 
             <TextView
@@ -198,12 +200,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="Eligibility"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -217,7 +220,7 @@
                 android:padding="10dp"
                 android:text="45% marks in Physics, Mathematics and Chemistry / Biology / Vocational subjects in HSC and appeared in MHT-CET 2023 or JEE Mains (Paper 1) 2023"
                 android:textColor="@color/black"
-                android:textSize="16sp">
+                android:textSize="14dp">
             </TextView>
 
             <TextView
@@ -225,12 +228,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:text="Documents"
                 android:fontFamily="@font/lora"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -245,7 +249,7 @@
                 android:text="SSC mark sheet"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -259,7 +263,7 @@
                 android:text="HSC mark sheet"
                 android:fontFamily="@font/lora"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -273,7 +277,7 @@
                 android:fontFamily="@font/lora"
                 android:text="MHT-CET / JEE mark sheet"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -287,7 +291,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Leaving certificate"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -301,7 +305,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Nationality certificate"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="2dp"
@@ -315,19 +319,20 @@
                 android:fontFamily="@font/lora"
                 android:text="Domicile certificate"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
                 android:text="Income Certificate"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
             <TextView
@@ -342,7 +347,7 @@
                 android:fontFamily="@font/lora"
                 android:text="Parent Income certificate of 2022-23 (less than 8 lakh)"
                 android:textColor="@color/black"
-                android:textSize="18sp">
+                android:textSize="16dp">
             </TextView>
 
         </LinearLayout>

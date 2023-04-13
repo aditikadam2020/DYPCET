@@ -68,13 +68,14 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
             android:textColor="@color/white"
             android:background="#F2150E65"
             android:text="Select Document"
             android:fontFamily="@font/lora"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="18dp"
             android:gravity="center">
         </TextView>
 
@@ -90,7 +91,7 @@
             android:fontFamily="@font/lora"
             android:text="Income Certificate"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/caste"
@@ -104,7 +105,7 @@
             android:fontFamily="@font/lora"
             android:text="Caste Certificate"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/casteValid"
@@ -118,7 +119,7 @@
             android:fontFamily="@font/lora"
             android:text="Caste Validity Certificate"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/domicile"
@@ -132,7 +133,7 @@
             android:fontFamily="@font/lora"
             android:text="Domicile Certificate"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/noncreme"
@@ -146,7 +147,7 @@
             android:fontFamily="@font/lora"
             android:text="Non-Creme Layer Certificate"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/ews"
@@ -160,7 +161,7 @@
             android:text="EWS Certificate"
             android:fontFamily="@font/lora"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/typeC"
@@ -174,7 +175,7 @@
             android:fontFamily="@font/lora"
             android:text="Proforma – A (Type-C)"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/typeD_1"
@@ -188,7 +189,7 @@
             android:fontFamily="@font/lora"
             android:text="Proforma B-1 (Type-D)"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/typeD_2"
@@ -202,7 +203,7 @@
             android:fontFamily="@font/lora"
             android:text="Proforma B-2 (Type-D)"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
         <TextView
             android:id="@+id/typeE"
@@ -216,7 +217,7 @@
             android:fontFamily="@font/lora"
             android:text="Proforma G1 and G2 (Type-E)"
             android:textColor="@color/black"
-            android:textSize="16sp">
+            android:textSize="16dp">
         </TextView>
     </LinearLayout>
     </androidx.core.widget.NestedScrollView>

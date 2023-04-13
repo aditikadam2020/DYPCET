@@ -84,7 +84,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Pixel Nerds – Photography Club of DYPCET is a platform to bring together the like-minded people and share knowledge about the art and science of Photography."
                 >
             </TextView>
@@ -120,7 +121,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -131,6 +132,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To encourages students to study light and imparts tips on composition."
                 >
             </TextView>
@@ -141,6 +143,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To organize activities that give a chance to learn photography, utilize their camera to the fullest and become sensitized to the world around."
                 >
             </TextView>
@@ -151,6 +154,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To focus on interaction between experts and students in addition to enhancing peer learning in photography and build an environment to capture memories forever."
                 >
             </TextView>
@@ -177,7 +181,7 @@
                     android:gravity="center"
                     android:layout_margin="5dp"
                     android:fontFamily="@font/lora"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -216,7 +220,7 @@
                         android:text="Photography Exhibition"
                         android:fontFamily="@font/lora"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -258,7 +262,7 @@
                         android:fontFamily="@font/lora"
                         android:text="PhotoWalks by Pixel Nerds – Photography Club"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

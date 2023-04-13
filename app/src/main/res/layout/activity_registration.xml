@@ -51,7 +51,7 @@
                         android:fontFamily="@font/lora"
                         android:textAlignment="center"
                         android:textColor="@color/blue"
-                        android:textSize="25sp"
+                        android:textSize="22dp"
                         android:textStyle="bold" />
 
                     <EditText
@@ -64,6 +64,7 @@
                         android:hint="Full Name"
                         android:fontFamily="@font/lora"
                         android:padding="7dp"
+                        android:textSize="14dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
@@ -78,6 +79,7 @@
                         android:hint="Email ID"
                         android:fontFamily="@font/lora"
                         android:padding="7dp"
+                        android:textSize="14dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
@@ -90,9 +92,11 @@
                         android:drawableLeft="@drawable/baseline_phone_24"
                         android:drawablePadding="7dp"
                         android:hint="Phone Number"
+                        android:inputType="number"
                         android:fontFamily="@font/lora"
                         android:padding="7dp"
                         android:textColor="@color/black"
+                        android:textSize="14dp"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
 
@@ -107,6 +111,7 @@
                         android:fontFamily="@font/lora"
                         android:inputType="text"
                         android:padding="7dp"
+                        android:textSize="14dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
@@ -122,6 +127,7 @@
                         android:fontFamily="@font/lora"
                         android:inputType="text"
                         android:padding="7dp"
+                        android:textSize="14dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
@@ -136,6 +142,7 @@
                         android:hint="Group e.g PCM or PCB or PCMB"
                         android:fontFamily="@font/lora"
                         android:inputType="text"
+                        android:textSize="14dp"
                         android:padding="7dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
@@ -151,6 +158,7 @@
                         android:hint="Password"
                         android:fontFamily="@font/lora"
                         android:inputType="textPassword"
+                        android:textSize="14dp"
                         android:padding="7dp"
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
@@ -168,7 +176,7 @@
                         android:fontFamily="@font/lora"
                         android:textColor="@color/white"
                         android:textColorHint="@color/black"
-                        android:textSize="20sp"
+                        android:textSize="20dp"
                         android:textStyle="bold"
                         app:cornerRadius="15dp" />
                 </LinearLayout>
@@ -186,7 +194,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:fontFamily="@font/lora"
-                android:textSize="14sp"></TextView>
+                android:textSize="14dp">
+            </TextView>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

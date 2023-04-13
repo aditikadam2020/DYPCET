@@ -12,7 +12,7 @@ import android.widget.ImageView;
 public class WhyDypcetActivity extends AppCompatActivity {
 
     ImageView iv;
-    CardView cd_virtual,cd_club,cd_nss,cd_ncc,cd_foreign,cd_gdsc,cd_rotract,cd_culture;
+    CardView cd_virtual,cd_club,cd_nss,cd_ncc,cd_foreign,cd_gdsc,cd_rotract,cd_culture,cd_sports;
 
 
     @Override
@@ -99,6 +99,16 @@ public class WhyDypcetActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 Intent intent = new Intent(WhyDypcetActivity.this,CulturalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cd_sports=findViewById(R.id.sports);
+        cd_sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(WhyDypcetActivity.this,SportsActivity.class);
                 startActivity(intent);
             }
         });

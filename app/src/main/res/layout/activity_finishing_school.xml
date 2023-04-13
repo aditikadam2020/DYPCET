@@ -83,7 +83,7 @@
                 android:gravity="center"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:textColor="@color/black"
                 android:textStyle="bold">
             </TextView>
@@ -94,13 +94,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/nevi_1"
             android:text="Quantitative Aptitude - 70 Hours"
             android:fontFamily="@font/lora"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="16dp"
             android:gravity="center">
         </TextView>
         <View
@@ -126,7 +126,7 @@
                     android:text="Module"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
 
@@ -138,7 +138,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold">
                 </TextView>
             </TableRow>
@@ -152,7 +152,7 @@
                     android:text="1"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                     android:text="Basic Aptitude"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -176,7 +176,7 @@
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:layout_marginRight="5dp"
-                    android:textSize="16sp"></TextView>
+                    android:textSize="14dp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -184,7 +184,7 @@
                     android:text="Business Aptitude"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -197,7 +197,7 @@
                     android:fontFamily="@font/lora"
                     android:text="3"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -207,7 +207,7 @@
                     android:text="Relative Speed"
                     android:padding="1dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -221,7 +221,7 @@
                     android:layout_height="wrap_content"
                     android:text="4"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -231,7 +231,7 @@
                     android:text="Number System"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -244,7 +244,7 @@
                     android:fontFamily="@font/lora"
                     android:text="5"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -255,7 +255,7 @@
                     android:text="TRW, Pipes and Cisterns"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -269,8 +269,8 @@
                     android:text="6"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
-                    ></TextView>
+                    android:textSize="14dp">
+                </TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
@@ -278,7 +278,7 @@
                     android:text="Combinotorics"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -292,7 +292,7 @@
                     android:text="7"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -301,7 +301,7 @@
                     android:text="Geometry, Mensuration"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -313,13 +313,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/nevi_1"
             android:text="Logical Reasoning - 60 Hours"
             android:fontFamily="@font/lora"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16dp"
             android:gravity="center">
         </TextView>
         <View
@@ -345,7 +345,7 @@
                     android:text="Module"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
 
@@ -357,7 +357,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold">
                 </TextView>
             </TableRow>
@@ -371,7 +371,7 @@
                     android:text="1"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -380,7 +380,7 @@
                     android:text="Analytical Reasoning"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -395,7 +395,7 @@
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:layout_marginRight="5dp"
-                    android:textSize="16sp"></TextView>
+                    android:textSize="14dp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -403,7 +403,7 @@
                     android:text="Spatial Reasoning"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -416,7 +416,7 @@
                     android:fontFamily="@font/lora"
                     android:text="3"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -426,7 +426,7 @@
                     android:text="Chronometry"
                     android:padding="1dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -440,7 +440,7 @@
                     android:layout_height="wrap_content"
                     android:text="4"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -450,7 +450,7 @@
                     android:text="Series Completion"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -463,7 +463,7 @@
                     android:fontFamily="@font/lora"
                     android:text="5"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -474,7 +474,7 @@
                     android:text="Non Verbal and Verbal Reasoning"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -485,13 +485,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/nevi_1"
             android:text="Verbal Ability and Soft Skills - 70 Hours"
             android:fontFamily="@font/lora"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16dp"
             android:gravity="center">
         </TextView>
         <View
@@ -517,7 +517,7 @@
                     android:text="Module"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
 
@@ -529,7 +529,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold">
                 </TextView>
             </TableRow>
@@ -543,7 +543,7 @@
                     android:text="1"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -552,7 +552,7 @@
                     android:text="Fundamentals of Grammer"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -567,7 +567,7 @@
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:layout_marginRight="5dp"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -576,7 +576,7 @@
                     android:text="Sentence formation and Vocabulary"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -589,7 +589,7 @@
                     android:fontFamily="@font/lora"
                     android:text="3"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -599,7 +599,7 @@
                     android:text="Listening and Speaking Skills"
                     android:padding="1dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -613,7 +613,7 @@
                     android:layout_height="wrap_content"
                     android:text="4"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -623,7 +623,7 @@
                     android:text="Reading and Writing Skills"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -636,7 +636,7 @@
                     android:fontFamily="@font/lora"
                     android:text="5"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -647,7 +647,7 @@
                     android:text="Resume Writing"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -660,7 +660,7 @@
                     android:fontFamily="@font/lora"
                     android:text="6"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -671,7 +671,7 @@
                     android:text="Interview Techniques"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -684,7 +684,7 @@
                     android:fontFamily="@font/lora"
                     android:text="7"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -695,7 +695,7 @@
                     android:text="Professional Networking"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -706,13 +706,13 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/nevi_1"
             android:text="Technical Skills - 120 Hours"
             android:fontFamily="@font/lora"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16dp"
             android:gravity="center">
         </TextView>
         <View
@@ -738,7 +738,7 @@
                     android:text="Module"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textStyle="bold">
                 </TextView>
 
@@ -750,8 +750,23 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="14dp"
                     android:textStyle="bold">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp"
+                android:background="@color/backcolor">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lora"
+                    android:text="For Core Branches: "
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    >
                 </TextView>
             </TableRow>
 
@@ -764,7 +779,7 @@
                     android:text="1"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp">
+                    android:textSize="14dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -773,7 +788,7 @@
                     android:text="C language"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -788,7 +803,7 @@
                     android:textColor="@color/black"
                     android:fontFamily="@font/lora"
                     android:layout_marginRight="5dp"
-                    android:textSize="16sp"></TextView>
+                    android:textSize="14dp"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -796,7 +811,7 @@
                     android:text="CPP"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -809,7 +824,7 @@
                     android:fontFamily="@font/lora"
                     android:text="3"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
                 <TextView
@@ -819,7 +834,7 @@
                     android:text="Data Structure and Algorithm"
                     android:padding="1dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -833,7 +848,7 @@
                     android:layout_height="wrap_content"
                     android:text="4"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -843,7 +858,7 @@
                     android:text="Python"
                     android:textColor="@color/black"
                     android:padding="1dp"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -854,10 +869,10 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lora"
-                    android:text="For Core Branches: "
+                    android:text="For Non-Core Branches: "
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     >
                 </TextView>
             </TableRow>
@@ -871,7 +886,7 @@
                     android:text="1"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -880,7 +895,7 @@
                     android:text="Autocad"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -894,7 +909,7 @@
                     android:text="2"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -903,7 +918,7 @@
                     android:text="Catia and Creo"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -917,7 +932,7 @@
                     android:text="3"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -926,7 +941,7 @@
                     android:text="3 Revit structure"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
@@ -940,7 +955,7 @@
                     android:text="4"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     ></TextView>
                 <TextView
                     android:layout_gravity="center_vertical"
@@ -949,11 +964,10 @@
                     android:text="4 Ansys"
                     android:fontFamily="@font/lora"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
             </TableRow>
-
         </TableLayout>
     </LinearLayout>
     </androidx.core.widget.NestedScrollView>

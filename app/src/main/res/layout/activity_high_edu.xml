@@ -84,7 +84,7 @@
                     android:text="Higher Education"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -95,6 +95,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="Higher Educational Club provides the guidelines for the students to pursue their higher studies in India and abroad. It also provides information related to competitive exams like UPSC, MPSC, IES etc. In order to prepare the club members for examinations like GATE, CAT, GRE, TOEFL, GMAT, IELTS, UPSC, MPSC, IES etc, various seminars, training sessions, online training from experts are organized under this club. This club enlightens the students regarding various career opportunities available in different fields after higher education."
                 >
             </TextView>
@@ -120,7 +121,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -131,6 +132,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To create awareness about various exams like GATE, CAT, GRE, TOEFL, GMAT and IELTS etc."
                 >
             </TextView>
@@ -141,6 +143,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To create awareness about UPSC, MPSC, IES etc."
                 >
             </TextView>
@@ -151,6 +154,7 @@
                 android:background="@color/backcolor"
                 android:textColor="@color/nevi_1"
                 android:fontFamily="@font/lora"
+                android:textSize="14dp"
                 android:text="> To arrange workshops, seminars, training sessions for preparing the students for above two objectives."
                 >
             </TextView>
@@ -177,7 +181,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -216,7 +220,7 @@
                         android:fontFamily="@font/lora"
                         android:text="A seminar on – “How to prepare for GATE examination” was conducted for final year students by Mr. Vaijenath Biradar, Lead Data Scientist, Yodlee Infotech (GATE – CSE 2016 AIR 13)."
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -257,7 +261,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Seminar on “Awareness about Higher Studies in Sweden” was conducted for third year students of CSE, EandTC and Chemical Engg. by “ Arijeet S. Laga, Student Ambassador, Uppsala University, Sweden”."
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">
@@ -299,7 +303,7 @@
                         android:fontFamily="@font/lora"
                         android:text="Seminar on “Career opportunities in MPSC, UPSC and Banking exams” was conducted for interested students of second year and third year by “Mr. Bharat Sabale, Competitive exam trainer, SGIAS development department, Kolhapur”"
                         android:textColor="@color/nevi_1"
-                        android:textSize="16sp"
+                        android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:background="#31018786">

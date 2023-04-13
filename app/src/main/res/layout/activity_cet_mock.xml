@@ -29,7 +29,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
             android:gravity="center"
-            android:text="CET Mock"
+            android:text="MHT-CET Mock"
             android:fontFamily="@font/lora"
             android:textColor="@color/white"
             android:textSize="20dp">
@@ -64,12 +64,13 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:text="Select Mock Test"
                 android:fontFamily="@font/lora"
-                android:textSize="20sp"
+                android:textSize="18dp"
                 android:gravity="center">
             </TextView>
 
@@ -97,7 +98,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -126,7 +127,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -155,7 +156,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -184,7 +185,7 @@
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
@@ -213,7 +214,7 @@
                     android:gravity="center"
                     android:fontFamily="@font/lora"
                     android:layout_margin="5dp"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
                 </TextView>
