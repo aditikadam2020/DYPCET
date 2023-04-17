@@ -99,17 +99,6 @@
                     android:textStyle="bold">
                 </TextView>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="INTAKE"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/white"
-                    android:textSize="16dp"
-                    android:textStyle="bold">
-                </TextView>
             </TableRow>
 
             <TableRow
@@ -124,16 +113,7 @@
                 android:textSize="14dp"
                 android:layout_weight="1">
             </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="120"
-                android:fontFamily="@font/lora"
-                android:gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="14dp"
-                android:layout_weight="2">
-            </TextView>
+
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -147,16 +127,6 @@
                     android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="180"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
-                </TextView>
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -169,16 +139,6 @@
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:layout_weight="1">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="120"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
                 </TextView>
             </TableRow>
             <TableRow
@@ -195,17 +155,7 @@
                     android:textSize="14dp"
                     >
                 </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="60"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
-                </TextView>
+
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -219,17 +169,7 @@
                     android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="60"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
-                </TextView>
+
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -243,17 +183,6 @@
                     android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="60"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
-                </TextView>
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -266,17 +195,6 @@
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:layout_weight="1">
-                </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="120"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lora"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
                 </TextView>
             </TableRow>
         </TableLayout>
@@ -317,17 +235,6 @@
                 android:textStyle="bold">
             </TextView>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="INTAKE"
-                android:fontFamily="@font/lora"
-                android:gravity="center_horizontal"
-                android:textColor="@color/white"
-                android:textSize="16dp"
-                android:textStyle="bold">
-            </TextView>
         </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -340,17 +247,6 @@
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:layout_weight="1">
-                </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="80"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
                 </TextView>
             </TableRow>
         </TableLayout>
@@ -390,18 +286,6 @@
                 android:textSize="16dp"
                 android:textStyle="bold">
             </TextView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="INTAKE"
-                android:fontFamily="@font/lora"
-                android:gravity="center_horizontal"
-                android:textColor="@color/white"
-                android:textSize="16dp"
-                android:textStyle="bold">
-            </TextView>
         </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -415,17 +299,6 @@
                     android:textSize="14dp"
                     android:layout_weight="1">
                 </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="18"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lora"
-                    android:gravity="center_horizontal"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
-                </TextView>
             </TableRow>
             <TableRow
                 android:padding="10dp"
@@ -438,17 +311,6 @@
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:layout_weight="1">
-                </TextView>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="18"
-                    android:fontFamily="@font/lora"
-                    android:textColor="@color/black"
-                    android:gravity="center_horizontal"
-                    android:textSize="14dp"
-                    android:layout_weight="2">
                 </TextView>
             </TableRow>
         </TableLayout>
