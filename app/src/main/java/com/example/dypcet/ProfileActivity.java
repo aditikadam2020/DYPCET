@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,9 +21,8 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileActivity extends AppCompatActivity {
 
     ActivityProfileBinding binding;
-    TextView getname,getemail,getphone,getstate,getcity,getgroup;
+    TextView getname,getemail,getphone,getstate,getcity,getgroup,getusertype;
     ImageView iv;
-    Button btn;
 
     FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
     FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
@@ -45,20 +43,9 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ProfileActivity.this, DashBoardActivity.class));
-                finish();
             }
         });
 
-
-        btn=findViewById(R.id.logout);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                Toast.makeText(ProfileActivity.this, "logout successfully", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(ProfileActivity.this,LoginActivity.class));
-            }
-        });
     }
 
     private void setUI() {
@@ -68,6 +55,7 @@ public class ProfileActivity extends AppCompatActivity {
         binding.getstate.findViewById(R.id.getstate);
         binding.getcity.findViewById(R.id.getcity);
         binding.getgroup.findViewById(R.id.getgroup);
+        binding.getusertype.findViewById(R.id.UserType);
     }
 
     private void getUserData()                                                                                                                                                        // User data sending
@@ -86,7 +74,7 @@ public class ProfileActivity extends AppCompatActivity {
                 binding.getstate.setText(users.getState());
                 binding.getcity.setText(users.getCity());
                 binding.getgroup.setText(users.getGroup());
-
+                binding.getusertype.setText(users.getUsertype());
             }
 
             @Override

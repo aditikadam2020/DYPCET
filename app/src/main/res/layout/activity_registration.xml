@@ -133,11 +133,28 @@
                         android:textColorHint="@color/hint" />
 
                     <EditText
+                        android:id="@+id/UserType"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:drawableLeft="@drawable/usertype"
+                        android:drawablePadding="7dp"
+                        android:hint="Student / Parent / Alumni"
+                        android:fontFamily="@font/lora"
+                        android:inputType="text"
+                        android:padding="7dp"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/cardview_dark_background"
+                        android:textColorHint="@color/hint" />
+
+
+                    <EditText
                         android:id="@+id/group"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_marginTop="15dp"
-                        android:drawableLeft="@drawable/baseline_lock_24"
+                        android:drawableLeft="@drawable/group"
                         android:drawablePadding="7dp"
                         android:hint="Group e.g PCM or PCB or PCMB"
                         android:fontFamily="@font/lora"
@@ -163,8 +180,6 @@
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
-
-
 
                     <Button
                         android:id="@+id/signUpButton"

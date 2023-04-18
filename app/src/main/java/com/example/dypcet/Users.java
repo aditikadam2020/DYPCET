@@ -3,13 +3,13 @@ package com.example.dypcet;
 import androidx.annotation.NonNull;
 
 public class Users {
-    String name,email,phonenumber,state,city,password,group;
+    String name,email,phonenumber,state,city,password,group,usertype;
 
     public Users() {
 
     }
 
-    public Users(String name, String email, String phonenumber, String state, String city, String password,String group) {
+    public Users(String name, String email, String phonenumber, String state, String city, String password, String group, String usertype) {
         this.name = name;
         this.email = email;
         this.phonenumber = phonenumber;
@@ -17,6 +17,7 @@ public class Users {
         this.city = city;
         this.group = group;
         this.password = password;
+        this.usertype = usertype;
     }
 
     @Override
@@ -29,7 +30,16 @@ public class Users {
                 ", city='" + city + '\'' +
                 ", password='" + password + '\'' +
                 ", group='" + group + '\'' +
+                ", usertype='" + usertype + '\'' +
                 '}';
+    }
+
+    public String getUsertype() {
+        return usertype;
+    }
+
+    public void setUsertype(String usertype) {
+        this.usertype = usertype;
     }
 
     public String getGroup() {

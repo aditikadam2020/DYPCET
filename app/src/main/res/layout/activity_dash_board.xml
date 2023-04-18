@@ -22,34 +22,43 @@
             android:background="@color/white">
         </ImageView>
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            app:srcCompat="@drawable/ugc"
-            android:background="@color/white">
-        </ImageView>
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@color/white"
-            app:srcCompat="@drawable/naac">
-        </ImageView>
+<!--        <ImageView-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            app:srcCompat="@drawable/ugc"-->
+<!--            android:background="@color/white">-->
+<!--        </ImageView>-->
+<!--        <ImageView-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/white"-->
+<!--            app:srcCompat="@drawable/naac">-->
+<!--        </ImageView>-->
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@color/white"
-            app:srcCompat="@drawable/nba">
-        </ImageView>
+<!--        <ImageView-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/white"-->
+<!--            app:srcCompat="@drawable/nba">-->
+<!--        </ImageView>-->
 
         <ImageView
             android:id="@+id/menu"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="80dp"
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_gravity="center_vertical"
             android:background="@color/white"
-            android:src="@drawable/person">
+            android:src="@drawable/profileimg">
+        </ImageView>
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_marginStart="15dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:src="@drawable/logout">
         </ImageView>
     </LinearLayout>
 

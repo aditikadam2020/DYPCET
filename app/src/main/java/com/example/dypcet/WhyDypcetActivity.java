@@ -32,7 +32,7 @@ public class WhyDypcetActivity extends AppCompatActivity {
         cd_virtual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://youtu.be/CcEccQElTR0";
+                String url = "https://coek.dypgroup.edu.in/Virtual_Tour/VirtualTour.html";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);

@@ -9,18 +9,21 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.dypcet.databinding.ActivityDashBoardBinding;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem;
 
 public class DashBoardActivity extends AppCompatActivity {
     ActivityDashBoardBinding binding;
     CardView cd_about,cd_admission,cd_document,cd_scholarship,cd_career,cd_faci,cd_cet,cd_branch,cd_whydypcet,cd_cutoff,cd_placement,cd_bus,cd_mhtcet,cd_jee,cd_future,cd_finishingschool,cd_admissionNews;
-    ImageView iv_menu,iv_facebook,iv_insta, iv_youtube;
+    ImageView iv_menu,iv_facebook,iv_insta, iv_youtube,logout_btn;
 
     TextView tv_visit;
 
@@ -285,11 +288,23 @@ public class DashBoardActivity extends AppCompatActivity {
         });
         //admission news ends
 
+        //logout btn
+        logout_btn = findViewById(R.id.logout);
+        logout_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(DashBoardActivity.this, "logout successfully", Toast.LENGTH_SHORT).show();
+                finish();
+                startActivity(new Intent(DashBoardActivity.this,LoginActivity.class));
+            }
+        });
+
     }
     private void slider(){
         binding.carousel.addData(new CarouselItem("https://cache.careers360.mobi/media/colleges/reviews/2021/6/1/161645/IMG-20191109-WA0015.jpg"));
         binding.carousel.addData(new CarouselItem("https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/kb-building.jpg"));
         binding.carousel.addData(new CarouselItem("https://media.licdn.com/dms/image/C4D22AQFI6QeKL4l9Tg/feedshare-shrink_800/0/1662355596468?e=1681344000&v=beta&t=TKUoskVTy8YcBrkzWIDTPOTxbvl4l2vXzJGkNqc5EpE"));
-        binding.carousel.addData(new CarouselItem("https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/271190360_5542323015794104_4391267751290127635_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Kk7TDAv1sO0AX_zbylW&_nc_ht=scontent-bom1-2.xx&oh=00_AfBUYvZ2qIiALRv0MaIwrRbG8IAyAsD3Dpvzu1O7216HrA&oe=6429742D"));
+        binding.carousel.addData(new CarouselItem("https://coek.dypgroup.edu.in/wp-content/uploads/photo-gallery/thumb/IMG-20220511-WA0007.jpg?bwg=1653368399"));
     }
 }
