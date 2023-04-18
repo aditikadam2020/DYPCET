@@ -72,7 +72,7 @@
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
-                android:text="Department of Civil Eng."
+                android:text="Department of Civil Engg."
                 android:textSize="18dp"
                 android:gravity="center"
                 android:layout_marginBottom="7dp">

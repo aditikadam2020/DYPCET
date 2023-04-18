@@ -138,7 +138,7 @@
                 android:background="#0F018786"
                 android:padding="5dp"
                 android:fontFamily="@font/lora"
-                android:text="3) Students whose parent's income is less than Rs. 6 lakh/annum are eligible for TFWS."
+                android:text="3) Students whose parent's income is less than Rs. 8 lakh/annum are eligible for TFWS."
                 android:textColor="@color/black"
                 android:textSize="14dp">
             </TextView>

@@ -210,7 +210,7 @@
                 android:background="#0F018786"
                 android:padding="10dp"
                 android:fontFamily="@font/lora"
-                android:text="Cast Validity Certificate"
+                android:text="Caste Validity Certificate"
                 android:textColor="@color/black"
                 android:textSize="16dp">
             </TextView>

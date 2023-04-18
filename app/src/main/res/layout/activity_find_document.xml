@@ -195,7 +195,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lora"
-                    android:text="Non-Creme Layer Certificate"
+                    android:text="Non-Creamy Layer Certificate"
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     >
@@ -205,7 +205,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lora"
-                    android:text="Revenue Department/Backward Classes Welfare Department"
+                    android:text="Tahsildar Office"
                     android:textColor="@color/black"
                     android:padding="1dp"
                     android:textSize="14dp"

@@ -58,7 +58,7 @@
                         android:id="@+id/name"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_marginTop="5dp"
                         android:drawableLeft="@drawable/baseline_person_24"
                         android:drawablePadding="7dp"
                         android:hint="Full Name"
@@ -132,11 +132,21 @@
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/lora"
+                        android:textSize="12dp"
+                        android:textColor="@color/nevi_1"
+                        android:text="User Type:(Student / Parent / Alumni)">
+                    </TextView>
+
                     <EditText
                         android:id="@+id/UserType"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:layout_marginTop="15dp"
                         android:drawableLeft="@drawable/usertype"
                         android:drawablePadding="7dp"
                         android:hint="Student / Parent / Alumni"
@@ -148,12 +158,22 @@
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/lora"
+                        android:textColor="@color/nevi_1"
+
+                        android:text="If 12th Student Enter Group:">
+                    </TextView>
 
                     <EditText
                         android:id="@+id/group"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:layout_marginTop="15dp"
                         android:drawableLeft="@drawable/group"
                         android:drawablePadding="7dp"
                         android:hint="Group e.g PCM or PCB or PCMB"
@@ -180,6 +200,39 @@
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         android:textColorHint="@color/hint" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="9dp"
+                        android:textColor="#FF0000"
+                        android:fontFamily="@font/lora"
+                        android:text="* Your Password should contain minimum 8 characters">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="9dp"
+                        android:textColor="#FF0000"
+                        android:fontFamily="@font/lora"
+                        android:text="-> Atleast 1 Capital Letter">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="9dp"
+                        android:textColor="#FF0000"
+                        android:fontFamily="@font/lora"
+                        android:text="-> 1 special symbol @ , _ , #">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="9dp"
+                        android:textColor="#FF0000"
+                        android:fontFamily="@font/lora"
+                        android:text="-> Atleast 1 number">
+                    </TextView>
 
                     <Button
                         android:id="@+id/signUpButton"

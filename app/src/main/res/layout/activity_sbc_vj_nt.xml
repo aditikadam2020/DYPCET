@@ -209,7 +209,7 @@
                 android:background="#0F018786"
                 android:padding="10dp"
                 android:fontFamily="@font/lora"
-                android:text="Cast Validity Certificate"
+                android:text="Caste Validity Certificate"
                 android:textColor="@color/black"
                 android:textSize="16dp">
             </TextView>
@@ -223,7 +223,7 @@
                 android:background="#0F018786"
                 android:padding="10dp"
                 android:fontFamily="@font/lora"
-                android:text="Non Creme-Layer Certificate (valid upto march 2024)"
+                android:text="Non Creamy-Layer Certificate (valid upto march 2024)"
                 android:textColor="@color/black"
                 android:textSize="16dp">
             </TextView>

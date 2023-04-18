@@ -135,7 +135,7 @@
                 android:textColor="@color/white"
                 android:background="#F2150E65"
                 android:fontFamily="@font/lora"
-                android:text="Applications of Chemical Eng."
+                android:text="Applications of Chemical Engg."
                 android:textSize="18sp"
                 android:gravity="center"
                 android:layout_marginBottom="7dp">
