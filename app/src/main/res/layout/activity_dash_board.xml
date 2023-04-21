@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/white"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,45 +22,33 @@
             app:srcCompat="@drawable/dypcet"
             android:background="@color/white">
         </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/menu"
+                android:layout_marginStart="80dp"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:src="@drawable/profileimg">
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/logout"
+                android:layout_width="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:src="@drawable/logout">
+            </ImageView>
+        </LinearLayout>
 
-<!--        <ImageView-->
-<!--            android:layout_width="25dp"-->
-<!--            android:layout_height="25dp"-->
-<!--            app:srcCompat="@drawable/ugc"-->
-<!--            android:background="@color/white">-->
-<!--        </ImageView>-->
-<!--        <ImageView-->
-<!--            android:layout_width="25dp"-->
-<!--            android:layout_height="25dp"-->
-<!--            android:background="@color/white"-->
-<!--            app:srcCompat="@drawable/naac">-->
-<!--        </ImageView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="25dp"-->
-<!--            android:layout_height="25dp"-->
-<!--            android:background="@color/white"-->
-<!--            app:srcCompat="@drawable/nba">-->
-<!--        </ImageView>-->
-
-        <ImageView
-            android:id="@+id/menu"
-            android:layout_marginStart="80dp"
-            android:layout_width="30dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center_vertical"
-            android:background="@color/white"
-            android:src="@drawable/profileimg">
-        </ImageView>
-        <ImageView
-            android:id="@+id/logout"
-            android:layout_marginStart="15dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center_vertical"
-            android:background="@color/white"
-            android:src="@drawable/logout">
-        </ImageView>
     </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -664,7 +653,7 @@
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_marginBottom="4dp"
-                                android:layout_width="40sp"
+                                android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 app:srcCompat="@drawable/bus">
                             </ImageView>

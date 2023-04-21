@@ -30,7 +30,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
             android:gravity="center"
-            android:text="Rotract"
+            android:text="Rotaract"
             android:fontFamily="@font/lora"
             android:textColor="@color/white"
             android:textSize="20dp">
@@ -80,7 +80,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Rotract"
+                    android:text="Rotaract"
                     android:fontFamily="@font/lora"
                     android:gravity="center"
                     android:layout_margin="5dp"
